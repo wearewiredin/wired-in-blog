@@ -6,15 +6,15 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
-url:              http://getpoole.com
+title:            We Are Wired In
+tagline:          A modern productivity tool for Mac, iOS & your desk.
+url:              http://blog.wearewired.in
 paginate:         1
 baseurl:          /
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  name:           Wired In
+  url:            https://twitter.com/wearewiredin
+  email:          hello@wearewired.in
 
 # Custom vars
 version:          1.0.0
