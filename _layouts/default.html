@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body>
+  <body {% if site.accent %} style="border-top: 6px solid #{{site.accent}};"{% endif %}>
 
     {% include sidebar.html %}
 
@@ -14,10 +14,16 @@
         <div class="container">
           <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
+          {% if site.logo %}
+          <h3 class="masthead-title">
+            <a href="/" title="Blog Home"><img src="{{ site.url }}{{ site.logo }}" /></a>
+          </h3>
+          {% else %}
           <h3 class="masthead-title">
             <a href="/" title="Home">{{ site.title }}</a>
             <small>{{ site.tagline }}</small>
           </h3>
+          {% endif %}
         </div>
       </div>
 

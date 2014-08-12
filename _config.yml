@@ -17,6 +17,10 @@ author:
 
 paginate:         5
 
+# Site Specific
+logo:			  /public/images/logo.png
+accent:			  1c618f
+
 # Custom vars
 version:          2.0.0
 
