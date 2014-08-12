@@ -107,9 +107,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid #eee;
   background-image: url("/public/images/background.jpg");
   background-size: cover;
-  background-position: left 80%;
-  background-repeat: no-repeat;
-  height: 350px;
+  height: 375px;
 }
 .masthead-title {
   margin-top: 0;
