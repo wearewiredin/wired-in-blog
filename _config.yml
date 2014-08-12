@@ -6,17 +6,19 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            We Are Wired In
-tagline:          A modern productivity tool for Mac, iOS & your desk.
-url:              http://blog.wearewired.in
-paginate:         1
-baseurl:          /
+title:            Lanyon
+tagline:          'A Jekyll theme'
+description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://lanyon.getpoole.com
+
 author:
-  name:           Wired In
-  url:            https://twitter.com/wearewiredin
-  email:          hello@wearewired.in
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+paginate:         5
 
 # Custom vars
-version:          1.0.0
+version:          2.0.0
+
 github:
-  repo:           https://github.com/poole/poole
+  repo:           https://github.com/poole/lanyon
