@@ -394,6 +394,7 @@ tbody tr:nth-child(odd) th {
     border-top: #2a2d30 1px solid;
     text-align: center;
     color: #ededed
+    font-family: 'Lato', sans-serif;
 }
 
 .full-footer {
@@ -458,6 +459,14 @@ form.signup button.btn {
 
 .form-group .form-control {
 	display: inline-block;
+}
+
+.signup {
+	padding:2rem;
+}
+
+.mc-field-group {
+    font-family: 'Lato', sans-serif;
 }
 
 /*

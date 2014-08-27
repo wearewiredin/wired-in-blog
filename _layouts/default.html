@@ -25,18 +25,13 @@
       <div class="full-footer">
         <div class="footer-nav">
                 <a href="http://wearewired.in">Home</a>
-            {% if site.pages %}
-                {% for page in site.pages %}
-                    {% if page.layout == "page" %}
-                        <a href="{{site.url}}{{page.url}}">{{page.title}}</a>
-                    {% endif %}
-                {% endfor %}
-            {% endif %}
+                <a href="http://blog.wearewired.in">Blog</a>
         </div>
         <div class="inner">
            <a class="subscribe icon-twitter" href="http://twitter.com/wearewiredin"></a>  
            <a class="subscribe icon-feed" href="{{site.url}}/feed.xml"></a>
         </div>        
+        <div class="signup">
         <div id="mc_embed_signup">
 			<form id="mc-form" class="validate form-inline signup">
 				<div class="mc-field-group form-group">
@@ -44,6 +39,7 @@
 					<button type="submit" class="btn btn-theme ladda-button" data-style="expand-left"><span class="ladda-label">Get Notified</span></button>
 				</div>							
 			</form>
+		</div>
 		</div>
 	</div>
     </footer>
