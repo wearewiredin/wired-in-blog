@@ -11,7 +11,13 @@ layout: default
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+	{% if post.Category == 'Hardware' %}
+	  <span class="post-date">{{ post.date | date_to_string }} - <a href="{{ site.url }}/hardware/">The Hardware Series</a></span>
+	{% else if post.Category == 'Interviews' %}
+	  <span class="post-date">{{ post.date | date_to_string }} - <a href="{{ site.url }}/hardware/">The Interview Series</a></span>
+	{% else if post.Category == 'News' %}
+	  <span class="post-date">{{ post.date | date_to_string }} - <a href="{{ site.url }}/hardware/">News</a></span>	
+	{% endif %}
 
     {{ post.content }}
   </div>

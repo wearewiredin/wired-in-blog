@@ -4,7 +4,14 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
+	{% if post.Category == 'Hardware' %}
+	  <span class="post-date">{{ page.date | date_to_string }} - <a href="{{ site.url }}/hardware/">The Hardware Series</a></span>
+	{% else if post.Category == 'Interviews' %}
+	  <span class="post-date">{{ page.date | date_to_string }} - <a href="{{ site.url }}/hardware/">The Interview Series</a></span>
+	{% else if post.Category == 'News' %}
+	  <span class="post-date">{{ page.date | date_to_string }} - <a href="{{ site.url }}/hardware/">News</a></span>	
+	{% endif %}
+
   {{ content }}
 </div>
 
