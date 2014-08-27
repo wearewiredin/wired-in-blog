@@ -1,6 +1,7 @@
 ---
 Layout: post
 Title: How We Built a Hardware Product
+Category: Hardware
 ---
 
 You should know that we actually haven't shipped a hardware product yet. But I'm hopeful. 
