@@ -1,7 +1,7 @@
 ---
 Layout: post
 Title: How we Built a HomeKit Product
-Category: HomeKit
+Category: Hardware
 ---
 
 I'm very excited to write about all of the product design and outsourcing, but I'm also excited to talk about HomeKit and iBeacon.
