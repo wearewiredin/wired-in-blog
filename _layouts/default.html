@@ -4,34 +4,61 @@
   {% include head.html %}
 
   <body>
-
-    {% include sidebar.html %}
-
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
-          {% if site.logo %}
-          <h3 class="masthead-title">
-            <a href="/" title="Blog Home"><img src="{{ site.url }}{{ site.logo }}" /></a>
-            <small>{{ site.tagline }}</small>
-          </h3>
-          {% else %}
-          <h3 class="masthead-title">
-            <a href="/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
-          </h3>
-          {% endif %}
+<header class="site-head" {% if site.data.blog.cover %}style="background-image: url({{site.url}}{{site.data.blog.cover}})"{% endif %}>
+    <div class="vertical">
+        <div class="site-head-content" class="inner">
+        	<div class="blog-logo">
+            {% if site.data.blog.logo %}<a href="http://wearewired.in"><img src="{{site.url}}{{site.data.blog.logo}}" alt="Wired In Icon" />{% endif %}</a>
+            <h2 class="blog-description">{{site.description}}</h2>
+            </div>
         </div>
-      </div>
+    </div>
+</header>
 
       <div class="container content">
         {{ content }}
       </div>
-    </div>
+      
+      <footer class="site-footer">
+      <div class="full-footer">
+        <div class="footer-nav">
+                <a href="http://wearewired.in">Home</a>
+            {% if site.pages %}
+                {% for page in site.pages %}
+                    {% if page.layout == "page" %}
+                        <a href="{{site.url}}{{page.url}}">{{page.title}}</a>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        </div>
+        <div class="inner">
+           <a class="subscribe icon-twitter" href="http://twitter.com/wearewiredin"></a>  
+           <a class="subscribe icon-feed" href="{{site.url}}/feed.xml"></a>
+        </div>        
+        <div id="mc_embed_signup">
+			<form id="mc-form" class="validate form-inline signup">
+				<div class="mc-field-group form-group">
+					<input type="email" value="" name="EMAIL" class="required email form-control" placeholder="hello@wearewired.in" id="mce-EMAIL">
+					<button type="submit" class="btn btn-theme ladda-button" data-style="expand-left"><span class="ladda-label">Get Notified</span></button>
+				</div>							
+			</form>
+		</div>
+	</div>
+    </footer>
+
+    <script type="text/javascript" src="{{site.url}}/public/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="{{site.url}}/public/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="{{site.url}}/public/js/index.js"></script>
+
+		<script>
+			$('#mc-form').ajaxChimp({
+				language: 'en',
+		 		callback: callbackFunction,
+		 		url: 'https://wearewired.us8.list-manage.com/subscribe/post?u=07093f2da36c576e0360bae19&amp;id=8a56dad6af' 
+			});
+		</script>
 
   </body>
 </html>

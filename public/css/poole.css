@@ -1,20 +1,4 @@
 /*
- *                        ___
- *                       /\_ \
- *  _____     ___     ___\//\ \      __
- * /\ '__`\  / __`\  / __`\\ \ \   /'__`\
- * \ \ \_\ \/\ \_\ \/\ \_\ \\_\ \_/\  __/
- *  \ \ ,__/\ \____/\ \____//\____\ \____\
- *   \ \ \/  \/___/  \/___/ \/____/\/____/
- *    \ \_\
- *     \/_/
- *
- * Designed, built, and released under MIT license by @mdo. Learn more at
- * https://github.com/poole/poole.
- */
-
-
-/*
  * Contents
  *
  * Body resets
@@ -28,6 +12,55 @@
  * Themes
  */
 
+@import url('http://fonts.googleapis.com/css?family=Lato:300,400,700,900'); 
+
+@font-face {
+    font-family: 'icons';
+    src:url('../fonts/icons.eot');
+    src:url('../fonts/icons.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/icons.woff') format('woff'),
+        url('../fonts/icons.ttf') format('truetype'),
+        url('../fonts/icons.svg#icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon-feed:before, 
+.icon-twitter:before, 
+.icon-google-plus:before, 
+.icon-facebook:before {
+    font-family: 'icons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.icon-feed:before {
+    content: "\e001";
+}
+.icon-twitter:before {
+    content: "\e002";
+    font-size: 1.1em;
+}
+.icon-google-plus:before {
+    content: "\e003";
+}
+.icon-facebook:before {
+    content: "\e004";
+}
+.icon-feed:hover {
+	text-decoration: none;
+}
+.icon-twitter:hover {
+	text-decoration: none;
+}
 
 /*
  * Body resets
@@ -67,12 +100,13 @@ body {
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #268bd2;
+  color: #498fcc;
   text-decoration: none;
 }
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
+  color: #176091;
   text-decoration: underline;
 }
 
@@ -201,8 +235,10 @@ blockquote p:last-child {
 }
 
 img {
-  display: block;
-  margin: 0 0 1rem;
+  margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto
+    margin-bottom: 1rem;
   border-radius: 5px;
 }
 
@@ -265,33 +301,164 @@ tbody tr:nth-child(odd) th {
   margin-right: auto;
 }
 
-
 /*
  * Masthead
  *
- * Super small header above the content for site name and short description.
+ * header above the content for site name and short description.
  */
 
-.masthead {
-  padding-top:    1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 3rem;
-}
-.masthead-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: #505050;
-}
-.masthead-title a {
-  color: #505050;
-}
-.masthead-title small {
-  font-size: 75%;
-  font-weight: 400;
-  color: #c0c0c0;
-  letter-spacing: 0;
+.inner {
+    position: relative;
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
+.vertical {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.site-head {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 60%;
+    margin-bottom: 5rem;
+    text-align: center;
+    color: #fff;
+    background: #303538 no-repeat center center;
+    background-size: cover;
+}
+
+.blog-logo {
+    text-decoration: none;
+}
+
+.blog-logo img {
+	margin-top: 3rem;
+    max-height: 128px;  
+    max-width:128px;  
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.blog-title {
+    margin: 10px 0 10px 0;
+    font-size: 5rem;
+    letter-spacing: -1px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+.blog-description {
+	padding: 1.5rem;
+    font-size: 1.5rem;
+    color: #fff;
+    line-height: 1.7em;
+    font-weight: 300 !important;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0;
+}
+
+@media (min-width: 38rem) {
+    .blog-description {
+        font-size: 1.5rem;
+         line-height: 1.7em;
+   }
+}
+@media (min-width: 56rem) {
+    .blog-description {
+        font-size: 1.7rem;
+        line-height: 1.9em;
+    }
+}
+
+/*
+	Footer
+*/
+
+.footer-nav {
+    margin-bottom: 15px;
+}
+.footer-nav a {
+    margin: 0 15px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.site-footer {
+    border-top: #2a2d30 1px solid;
+    text-align: center;
+    color: #ededed
+}
+
+.full-footer {
+    padding: 2rem 0 2rem 0;
+    background-color: #2a2d30;
+}
+
+.site-footer a {
+    color: #ededed;
+}
+
+/*
+	Form
+*/
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.428571429;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 0;
+}
+
+.btn-theme {
+	color: #fff;
+	background-color: transparent;
+	border-color: #fff;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.btn-theme:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+form.signup input[type="email"] {
+	height: 42px;
+	width: 250px;
+	border-radius: 0;
+	margin: 0 5px;
+}
+
+form.signup button.btn {
+	font-weight: 700;
+}
+
+.form-group .form-control {
+	display: inline-block;
+}
 
 /*
  * Posts and pages

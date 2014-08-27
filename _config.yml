@@ -19,10 +19,10 @@ paginate:         5
 
 # Site Specific
 logo:			  /public/images/logo.png
-accent:			  1c618f
+accent:			  498fcc
 
 # Custom vars
 version:          2.0.0
 
 github:
-  repo:           https://github.com/poole/lanyon
+  repo:           https://github.com/wearewiredin/wired-in-blog
