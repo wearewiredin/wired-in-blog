@@ -29,18 +29,18 @@ Now, with a sign in my hands the potential is even more obvious. I want to make 
 
 I am just as excited about using the product as I am about the experience of building the product. We'll post updates here as they happen, hopefully once a week. We're publishing here long before we know the outcomes. Who knows where this road will take us, but for now we're planning on covering:
 
-	* How we come up with the idea, and prove the concept
-	* What we learn trying to get prototypes
-	* How we find our first overseas manufacturer 
-	* Who can help us with our technical prototypes
-	* The branding process and pre-marketing
-	* The product design process
-	* How we work with HomeKit and iBeacon
-	* The process of finding a packaging supplier
-	* How we manage quality testing
-	* What we learn about mass (hopefully) shipping 
-	* And likely a number of other things	
-	* In fact, if you have an idea of what we might share, please let us know
+* How we come up with the idea, and prove the concept
+* What we learn trying to get prototypes
+* How we find our first overseas manufacturer 
+* Who can help us with our technical prototypes
+* The branding process and pre-marketing
+* The product design process
+* How we work with HomeKit and iBeacon
+* The process of finding a packaging supplier
+* How we manage quality testing
+* What we learn about mass (hopefully) shipping 
+* And likely a number of other things	
+* In fact, if you have an idea of what we might share, please let us know
 
 We've already been through how we came up with the idea. We'll write soon about what we've done to prove the concept, and how it has evolved soon. 
 
