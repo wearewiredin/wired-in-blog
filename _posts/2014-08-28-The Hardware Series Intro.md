@@ -1,5 +1,5 @@
 ---
-Layout: post
+layout: post
 Title: How We Built a Hardware Product
 Category: Hardware
 ---

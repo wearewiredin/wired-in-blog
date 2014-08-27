@@ -1,5 +1,5 @@
 ---
-Layout: post
+layout: post
 Title: How we Built a HomeKit Product
 Category: Hardware
 ---
