@@ -48,6 +48,40 @@
     <script type="text/javascript" src="{{site.url}}/public/js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="{{site.url}}/public/js/jquery.fitvids.js"></script>
     <script type="text/javascript" src="{{site.url}}/public/js/index.js"></script>
+	<script src="{{site.url}}/public/js/jquery.ajaxchimp.min.js"></script>
+
+		<script>
+		
+			function callbackFunction (resp) {
+			    if (resp.result === 'success') {
+					console.log('success', resp);				
+			    } else {
+                        form-control.removeClass('valid').addClass('error');
+                        var index = -1;
+                        try {
+                            var parts = resp.msg.split(' - ', 2);
+                            if (parts[1] === undefined) {
+                                msg = resp.msg;
+                            } else {
+                                var i = parseInt(parts[0], 10);
+                                if (i.toString() === parts[0]) {
+                                    index = parts[0];
+                                    msg = parts[1];
+                                } else {
+                                    index = -1;
+                                    msg = resp.msg;
+                                }
+                            }
+                        }
+                        catch (e) {
+                            index = -1;
+                            msg = resp.msg;
+                        }
+					}
+			}
+
+		</script>	
+
 
 		<script>
 			$('#mc-form').ajaxChimp({
