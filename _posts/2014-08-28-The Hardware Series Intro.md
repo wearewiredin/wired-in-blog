@@ -1,6 +1,6 @@
 ---
 layout: post
-Title: How We Built a Hardware Product
+title: How We Built a Hardware Product
 Category: Hardware
 ---
 
