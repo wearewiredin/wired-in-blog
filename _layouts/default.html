@@ -41,10 +41,9 @@
 				</div>							
 			</form>
 		</div>
-		</div>
-		<h3 class="heading" id="signupHeader1" style="color: #fff;"></h3>
-		<p id="signupLead1" style="color: #fff;"></p>
-		
+			<h3 class="heading" id="signupHeader1" style="color: #fff;"></h3>
+			<p id="signupLead1" style="color: #fff;"></p>
+		</div>		
 	</div>
     </footer>
 
@@ -66,6 +65,15 @@
 						fieldLeadElement.innerHTML = resp.msg;
 
 					  var fieldLead3Element = document.getElementById('mc_embed_signup');
+						fieldLead3Element.innerHTML = "";
+
+					var fieldHeaderElement = document.getElementById('signupHeader2');
+						fieldHeaderElement.innerHTML = "High Five!";
+
+					  var fieldLeadElement = document.getElementById('signupLead2');
+						fieldLeadElement.innerHTML = resp.msg;
+
+					  var fieldLead3Element = document.getElementById('mc_embed_signup2');
 						fieldLead3Element.innerHTML = "";
 								
 			    } else {
