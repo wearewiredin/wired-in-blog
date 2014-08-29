@@ -6,15 +6,15 @@ Category: Hardware
 
 You should know that we actually haven't shipped a hardware product yet. But I'm hopeful. 
 
-Our plan is to build a software and hardware integrated product. We think the experience will be unique and exhilarating. From what I hear, you might be interested in following along with us.
+Our plan is to build a software and hardware integrated product. We think the experience will be unique and exhilarating. From what I hear you might be interested in following along with us.
 
-This series should give you as close a look as I can offer. We'll go through product design, rapid prototyping, and all of the ins and outs of our outsourcing. (*For example, how the heck did you find a manufacturer overseas?*) We'll talk about our business plans and how we are pricing and marketing the product.
+This series should give you as close a look as I can offer. We'll go through product design, rapid prototyping, and all of the ins and outs of our outsourcing. (For example, *how the heck* did you find a manufacturer overseas?) We'll talk about our business plans and how we are pricing and marketing the product.
 
 **Let's start with why we're building an integrated hardware product, and not just software. Especially since we're all software engineers.**[^1]
 
 As software engineers we have a frequent problem: people bug us. Not in the sense that we don't like them, more in the sense that they interrupt us and keep us from accomplishing our work. Interruptions are awful. There are clever [graphics](http://thefuturebuzz.com/wp-content/uploads/2013/03/sAdZ63y.jpg) and [comics](http://heeris.id.au/2013/this-is-why-you-shouldnt-interrupt-a-programmer/) that illustrate this well.
 
-We've all tried a number of ways to convince people to leave us alone while we're deep in programming. When we saw The Social Network (only once, I promise) we all thought the same thing when we heard the term "wired In", right? 
+We've all tried to convince people to leave us alone while deep in programming. When you saw The Social Network (only once, right?) you all thought the same thing when you heard the term "wired In", right? 
 
 <div class="video-container">
 <iframe width="560" height="315" src="//www.youtube.com/embed/4c0lk-LtLI0" frameborder="0" allowfullscreen></iframe>
@@ -24,11 +24,11 @@ Back in 2012 Garrett Gee posted a picture of a Steve Jobs quote to [Dribbble](ht
 
 ![Scan Offices](https://d13yacurqjgara.cloudfront.net/users/17968/screenshots/593748/steve_jobs_quote_garrett_g.png)
 
-It turns out he had them custom made. And man do I want one. So, I have set out to have one custom made for myself. It seems to take a lot of research (we'll talk about this), but I there are indded many places that do acrylic signs with LED lighting. We've started with a couple basic prototypes. They look similar to Garrett's; after all he was the inspiration.
+It turns out he had them custom made. And man do I want one. So, I have set out to have one custom made for myself. It seems to take a lot of research (we'll talk about this), and there are indeed many places that do acrylic signs with LED lighting. We've started with a couple basic prototypes. They look similar to Garrett's; after all he was the inspiration.
 
 Now, with a sign in my hands the potential is even more obvious. I want to make them wireless. I want to make them automatic. I want to make them broadcast to my team over the internet. And so now it's a real project, and (hopefully) a very real company.
 
-I am just as excited about using the product as I am about the experience of building the product. We'll post updates here as they happen, hopefully once a week. We're publishing here long before we know the outcomes. Who knows where this road will take us, but for now we're planning on covering:
+I am just as excited about using the sign (and app) as I am about the experience of building the product. We'll post updates here as they happen, hopefully once a week. We're publishing here long before we know the outcomes. Who knows where this road will take us, but for now we're planning on covering:
 
 * How we come up with the idea, and prove the concept
 * What we learn trying to get prototypes
