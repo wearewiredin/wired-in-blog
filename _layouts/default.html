@@ -42,6 +42,9 @@
 			</form>
 		</div>
 		</div>
+		<h3 class="heading" id="signupHeader1" style="color: #fff;"></h3>
+		<p id="signupLead1" style="color: #fff;"></p>
+		
 	</div>
     </footer>
 
@@ -54,7 +57,17 @@
 		
 			function callbackFunction (resp) {
 			    if (resp.result === 'success') {
-					console.log('success', resp);				
+					console.log('success', resp);	
+					
+					var fieldHeaderElement = document.getElementById('signupHeader1');
+						fieldHeaderElement.innerHTML = "High Five!";
+
+					  var fieldLeadElement = document.getElementById('signupLead1');
+						fieldLeadElement.innerHTML = resp.msg;
+
+					  var fieldLead3Element = document.getElementById('mc_embed_signup');
+						fieldLead3Element.innerHTML = "";
+								
 			    } else {
                         form-control.removeClass('valid').addClass('error');
                         var index = -1;
