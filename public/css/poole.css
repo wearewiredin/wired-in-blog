@@ -387,6 +387,7 @@ tbody tr:nth-child(odd) th {
 .footer-nav a {
     margin: 0 15px;
     font-size: 1rem;
+    font-weight: 100;
     text-decoration: none;
 }
 
@@ -399,7 +400,7 @@ tbody tr:nth-child(odd) th {
 
 .full-footer {
     padding: 2rem 0 2rem 0;
-    background-color: #2a2d30;
+    background-color: #2d2e2e;
 }
 
 .site-footer a {
