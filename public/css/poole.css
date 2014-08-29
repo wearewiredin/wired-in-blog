@@ -465,6 +465,10 @@ form.signup button.btn {
 	padding:1.0rem;
 }
 
+.signup-inline {
+	padding:0.0rem;
+}
+
 .mc-field-group {
     font-family: 'Lato', sans-serif;
 }
@@ -496,7 +500,19 @@ form.signup button.btn {
 .post-date {
   display: block;
   margin-top: -.5rem;
+  margin-bottom: 0rem;
+  color: #9a9a9a;
+}
+
+.post-author {
+  display: block;
+  margin-top: -.5rem;
   margin-bottom: 1rem;
+  color: #9a9a9a;
+}
+
+.post-author a {
+  text-decoration: none;
   color: #9a9a9a;
 }
 

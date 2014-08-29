@@ -19,10 +19,13 @@ layout: default
 
 	{% if post.Category == 'Hardware' %}
 	  <span class="post-date">{{ post.date | date_to_string }} - <a href="{{ site.url }}/hardware/">The Hardware Series</a></span>
+     <span class="post-author"><a href="http://twitter.com/{{ post.author_twitter }}">{{ post.author }}</a></span>
 	{% else if post.Category == 'Interviews' %}
 	  <span class="post-date">{{ post.date | date_to_string }} - <a href="{{ site.url }}/hardware/">The Interview Series</a></span>
+     <span class="post-author"><a href="http://twitter.com/{{ post.author_twitter }}">{{ post.author }}</a></span>
 	{% else if post.Category == 'News' %}
 	  <span class="post-date">{{ post.date | date_to_string }} - <a href="{{ site.url }}/hardware/">News</a></span>	
+      <span class="post-author"><a href="http://twitter.com/{{ post.author_twitter }}">{{ post.author }}</a></span>
 	{% endif %}
 
     {{ post.content }}

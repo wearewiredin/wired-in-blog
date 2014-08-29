@@ -1,6 +1,8 @@
 ---
 layout: post
 title: How We Built a Hardware Product
+author: Joshua Howland
+author_twitter: jkhowland
 Category: Hardware
 ---
 

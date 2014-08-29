@@ -6,10 +6,25 @@ layout: default
   <h2>Welcome to Wired In</h2>
   <p>We are building a modern productivity tool for iOS, OS X, and your desk. We thought it'd be fun to share our journey building apps and a hardware product.</p>
   <p><a href="{{ site.url }}/hardware/">The Hardware Series</a> covers our adventure designing, prototyping, and shipping a hardware product.</p>
+
+        <div class="signup-inline">
+        <div id="mc_embed_signup">
+			<form id="mc-form" class="validate form-inline signup">
+				<div class="mc-field-group form-group">
+					<input type="email" value="" name="EMAIL" class="required email form-control" placeholder="hello@wearewired.in" id="mce-EMAIL">
+					<button type="submit" class="btn btn-theme-inline ladda-button" data-style="expand-left"><span class="ladda-label">Get Notified</span></button>
+				</div>							
+			</form>
+		</div>
+		</div>
 </div>
 
 <div class="posts">
   {% for post in site.posts %}
+  
+    {% assign author = site.authors[post.author] %}
+    {{ author.display_name }}
+  
   {% if post.Category == 'Hardware' %}
   <div class="post">
     <h1 class="post-title">
@@ -17,9 +32,8 @@ layout: default
         {{ post.title }}
       </a>
     </h1>
-
     <span class="post-date">{{ post.date | date_to_string }} - <a href="{{ site.url }}/hardware/">The Hardware Series</a></span>
-
+    <span class="post-author"><a href="http://twitter.com/{{ post.author_twitter }}">{{ post.author }}</a></span>
     {{ post.content }}
   </div>
   {% endif %}
