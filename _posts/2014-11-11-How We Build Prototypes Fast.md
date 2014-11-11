@@ -25,4 +25,3 @@ Arduino hardware is also modular. For prototyping, we’re using an RFDuino, whi
 It turns out that the Arduino can also work well in production devices. We’re still discussing and deciding whether we’ll use an Arduino in the final product or move to using lower level discrete parts. Using discrete parts will reduce the per-unit manufacturing cost and gives us more flexibility, but will make for longer engineering time. In the prototyping phase, where cost is not a big concern, and where we mostly just want everything to work, using an Arduino is a big win.
 
 -Andrew
-[@armadsen](http://twitter.com/armadsen)
