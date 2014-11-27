@@ -3,7 +3,7 @@ layout: post
 title: The First Team to Be Wired In
 author: Joshua Howland
 author_twitter: jkhowland
-Category: Updates
+Category: Hardware
 ---
 
 We have a lot of story to tell. I'm excited to share with you the entire process of seeking out and working with overseas manufacturers. We've learned so much that I think can help others avoid pitfalls.
