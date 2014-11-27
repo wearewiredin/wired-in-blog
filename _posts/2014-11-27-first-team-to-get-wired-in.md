@@ -1,16 +1,16 @@
 ---
 layout: post
-title: The First Team to Be Wired In
+title: The First Team to Get Wired In
 author: Joshua Howland
 author_twitter: jkhowland
-Category: Updates
+Category: Hardware
 ---
 
 We have a lot of story to tell. I'm excited to share with you the entire process of seeking out and working with overseas manufacturers. We've learned so much that I think can help others avoid pitfalls.
 
 We've been so busy actually iterating through prototypes that I haven't had time to put what we've learned to blog posts. I promise they are coming.
 
-**An office full of signs**
+## An office full of signs
 
 One of the things we really wanted to test was having an entire office using Wired In signs. The perfect first shop was Tanner Labs. It's an open office space with a fast-paced design and development style. They are also local, so we can get their feedback and see first-hand how they use the hardware.
 
@@ -26,7 +26,7 @@ It was really helpful to go through an actual order process with the team. They 
 
 The feedback was to keep either text or pane constant: “Frosted Pane vs Clear Pane” or “Frosted Text vs Clear Text”. The less friction in the order process the better, so we want the distinction to be as clear as possible. 
 
-**Shipping the order**
+## Shipping the order
 
 After we had the orders in from the team we still had to send it to our Chinese manufacturers. And while I wish we could just send them the text list and be done, it actually took hours to prepare the files. More than thirty signs with a handful of custom text acrylics had to be designed with a unique layout for each custom phrase. 
 
