@@ -38,6 +38,6 @@ It took a couple weeks for the signs to arrive. The yield on the bases wasn't pe
 
 When we delivered the signs everyone was ecstatic. They loved the way the hardware looked, felt, and worked. It was a fabulous experience for our first order. We are excited to see how the signs help productivity at Tanner Labs. 
 
-We'd love to get some prototypes in a few more test offices before we officially launch. Do you know of an office that would be a good fit? We'd love to hear from you. Email me at josh@wearewired.in or reach out to us on [Twitter](http://twitter.com/wearewiredin).
+We'd love to get some prototypes in a few more test offices before we officially launch. Do you know of an office that would be a good fit? We'd love to hear from you. Email me at [josh@wearewired.in](mailto:josh@wearewired.in) or reach out to us on [Twitter](http://twitter.com/wearewiredin).
 
 -Joshua
