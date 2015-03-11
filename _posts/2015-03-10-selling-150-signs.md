@@ -25,4 +25,4 @@ We're hard at work on our Bluetooth multi-colored models, but they won't be read
 
 More to come soon! 
 
-- Caleb
+-Caleb
