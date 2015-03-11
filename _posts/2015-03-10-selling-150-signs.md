@@ -24,3 +24,5 @@ Team orders of 10 or more can order custom text or vector file for the acrylic d
 We're hard at work on our Bluetooth multi-colored models, but they won't be ready until mid-Summer at the earliest. If you want to wait until then, we don't blame you, they're going to be really awesome! So no hard feelings. But if you want to get your hands on one of these and start signaling you're busy ASAP, [now's your chance](http://store.wearewired.in). First come, first serve, [until they're gone](http://media.tumblr.com/tumblr_m26nvnNG5o1qkk10ro1_500.jpg).
 
 More to come soon! 
+
+- Caleb
