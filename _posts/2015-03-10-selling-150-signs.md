@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The First Team to Get Wired In
+title: Get Your Team Wired In
 author: Caleb Hicks
 author_twitter: calebhicks
 Category: Hardware
@@ -12,12 +12,12 @@ We're selling an advance run of 150 signs starting [right now](http://store.wear
 
 So what are you buying if you buy today?
 
-[photo]
+![Prerelease Sign]({{site.url}}/assets/presale-main.jpg)
 
-Battery powered, switch enabled aluminum base  
-Removable 'Wired In' acrylic  
-Diffused red LED light  
-$30 shipped in 30 days  
+* Battery powered, switch enabled aluminum base  
+* Removable 'Wired In' acrylic pane
+* Diffused red LED light  
+* $30 shipped in 30 days  
 
 Team orders of 10 or more can order custom text or vector file for the acrylic design.
 
