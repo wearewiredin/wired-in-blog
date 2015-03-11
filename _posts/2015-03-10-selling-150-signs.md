@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Get Your Team Wired In
+title: Announcement: Get Your Team Wired In
 author: Caleb Hicks
 author_twitter: calebhicks
 Category: Hardware
@@ -14,10 +14,10 @@ So what are you buying if you buy today?
 
 ![Prerelease Sign]({{site.url}}/assets/presale-main.jpg)
 
-* Battery powered, switch enabled aluminum base  
-* Removable 'Wired In' acrylic pane
-* Diffused red LED light  
-* $30 shipped in 30 days  
+Battery powered, switch enabled aluminum base  
+Removable 'Wired In' acrylic pane  
+Diffused red LED light  
+$29 shipped in 30 days  
 
 Team orders of 10 or more can order custom text or vector file for the acrylic design.
 
