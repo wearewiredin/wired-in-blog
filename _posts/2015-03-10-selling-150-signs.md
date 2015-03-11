@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Announcement: Get Your Team Wired In
+title: 'Now Taking 150 Orders for Early Release Signs'
 author: Caleb Hicks
 author_twitter: calebhicks
 Category: Hardware
