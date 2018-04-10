@@ -11,5 +11,6 @@
 }
 
 .downloadButton:hover {
-    color:gray;
+    text-decoration: none;
+    color:LightGray;
 }
