@@ -9,9 +9,13 @@ We're excited that you have purchased a Wired In sign. **The Wired In App is her
 
 <p style="text-aling:center"><a class="downloadButton" href="https://s3-us-west-2.amazonaws.com/wired-in/Wired+In.zip" download="Wired In">Download Mac App</a> <a class="downloadButton" href="https://s3-us-west-2.amazonaws.com/wired-in/Wired+In.zip" download="Wired In">Download Windows App</a></p>
 
+### Presets
+
+You can create custom sign statuses for easy switching. Each status can have a unique (or even shared color). Statuses have an assigned emoji. That way when your status posts to Slack, or another webhook, it can post the name and emoji.
+
 ### Shortcuts
 
-You can create custom sign statuses, and control them very easily with hotkey shortcuts. Every color can have it's own shortcut key, and you can have a separate shortcut key for turning the sign off. 
+Power control your sign quickly and easily with hotkey shortcuts. Every color can have it's own shortcut key, and you can have a separate shortcut key for turning the sign off. 
 
 ![Control with shortcuts](/assets/settings.png)
 
