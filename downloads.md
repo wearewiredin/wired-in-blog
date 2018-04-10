@@ -3,4 +3,4 @@ title: Download Wired In for Desktop
 permalink: downloads.html
 ---
 
-<p><a class="downloadButton" href="https://s3-us-west-2.amazonaws.com/wired-in/Wired+In.zip" download="Wired In">Download Mac App</a> <a class="downloadButton" href="https://s3-us-west-2.amazonaws.com/wired-in/Wired+In.zip" download="Wired In">Download Windows App</a></p>
+<p style="text-aling:center"><a class="downloadButton" href="https://s3-us-west-2.amazonaws.com/wired-in/Wired+In.zip" download="Wired In">Download Mac App</a> <a class="downloadButton" href="https://s3-us-west-2.amazonaws.com/wired-in/Wired+In.zip" download="Wired In">Download Windows App</a></p>
