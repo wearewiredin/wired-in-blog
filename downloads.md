@@ -9,12 +9,12 @@ We're excited that you have purchased a Wired In sign. **The Wired In App is her
 
 <p style="text-aling:center"><a class="downloadButton" href="https://s3-us-west-2.amazonaws.com/wired-in/Wired+In.zip" download="Wired In">Download Mac App</a> <a class="downloadButton" href="https://s3-us-west-2.amazonaws.com/wired-in/Wired+In.zip" download="Wired In">Download Windows App</a></p>
 
-###Shortcuts
+### Shortcuts
 
 You can create custom sign statuses, and control them very easily with hotkey shortcuts. Every color can have it's own shortcut key, and you can have a separate shortcut key for turning the sign off. 
 
 ![Control with shortcuts](/assets/settings.png)
 
-###Feedback
+### Feedback
 
 We're looking forward to your feedback. Wired In is just getting started and we want to continue to evolve the app to hel pyou be even more productive. Watch for updates soon.
