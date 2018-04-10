@@ -9,3 +9,7 @@
     color: white;
     font-weight: bold;
 }
+
+.downloadButton:hover {
+    color:gray;
+}
