@@ -7,7 +7,7 @@ We're excited that you have purchased a Wired In sign. **The Wired In App is her
 
 ![Simple Desktop App](/assets/simple-desktop.png)
 
-<p style="text-aling:center"><a class="downloadButton" href="http://builds.openreelsoftware.com/apps/wired-in-mac/release/download/latest" download="Wired In">Download Mac App</a> <a class="downloadButton" href="https://s3-us-west-2.amazonaws.com/downloads.wearewired.in/WiredIn.exe" download="Wired In">Download Windows App</a></p>
+<p style="text-aling:center"><a class="downloadButton" href="http://builds.openreelsoftware.com/apps/wired-in-mac/release/download/latest" download="Wired In">Download Mac App</a> <a class="downloadButton" href="http://wired-in.s3.amazonaws.com/WiredIn.exe.zip" download="Wired In">Download Windows App</a></p>
 
 ### Presets
 
